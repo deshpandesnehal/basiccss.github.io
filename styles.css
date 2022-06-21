@@ -1,0 +1,36 @@
+.box{
+    height: 100px;
+    width: 100px;
+    padding: 5px 10px 15px 20px; 
+    margin: 10px 20px 0px 10px;
+    color: blue;
+    border-bottom: 2px solid black; /* short hand property */
+    border-top: 2px solid black;
+}
+
+#grad-1 {
+    background-image: linear-gradient(red, yellow, green);
+}
+
+#grad-2 {
+    background-image: linear-gradient(to right, red, yellow, green);
+} 
+
+#grad-3 {
+    background-image: radial-gradient(red, yellow, green);
+}
+
+.para {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    text-decoration: underline;
+    line-height: 70px;
+    text-indent: 100px;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px grey;
+    text-align: center;
+    font-style: italic;
+}
